@@ -15,11 +15,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+<!-- login -->
+    <div id="login" class="n">
+      <div id="login-container">
+          <h3>Want to create your cv ?</h3>
+          <h1>Enter your Email and Password</h1>
+  
+          <form action="">
+              <div>
+                  <label for="email">Email:</label>
+                  <input type="text" name="email">
+              </div>
+              <div>
+                  <label for="password">Password:</label>
+                  <input type="password" name="password">
+              </div>
+
+              <div>
+                  <input type="submit" value="Submit">
+              </div>
+          </form>
+      </div>
+  </div>
     <!-- form  -->
     <div id="cv-form">
-      <div class="header text-center bg-dark text-light py-2">
+      <div class="header text-center text-light py-2">
         <h2>Resume Generator</h2>
-        <p class="text-warning">By Rishika Vishnoi 😊</p>
+        <p class="text-warning">😊</p>
       </div>
 
       <div class="container mt-3">
@@ -73,7 +95,7 @@
               ></textarea>
             </div>
 
-            <h3 class="text-warning mt-3">Social Link</h3>
+            <h3 class="pale-green-text mt-3">Social Link</h3>
 
             <div class="form-group mt-2">
               <label for="githubfield">Github Link</label>
@@ -149,7 +171,7 @@
 
               <!-- add new textarea by js -->
               <div class="container text-center mt-2" id="weAddButton">
-                <button onclick="addNewExp()" class="btn btn-warning btn-sm">
+                <button onclick="addNewExp()" class="btn  pale-green btn-sm">
                   Add
                 </button>
               </div>
@@ -165,7 +187,7 @@
               ></textarea>
 
               <div class="container text-center mt-2" id="EAddButton">
-                <button onclick="addNewEdu()" class="btn btn-warning btn-sm">
+                <button onclick="addNewEdu()" class="btn  pale-green btn-sm">
                   Add
                 </button>
               </div>
@@ -174,7 +196,7 @@
         </div>
 
         <div class="container text-center my-4">
-          <button onClick="generateResume()" class="btn btn-warning btn-large">
+          <button onClick="generateResume()" class="btn  pale-green btn-large">
             Generate Resume
           </button>
         </div>
@@ -185,7 +207,7 @@
 
     <div class="container-fluid" id="cv-template">
       <div class="row">
-        <div class="col-md-4 text-center py-5 left-template">
+        <div class="col-md-4 text-center py-5 left-template .light-blue">
           <!-- first section -->
 
           <img
@@ -221,12 +243,12 @@
         <div class="col-md-8 py-4">
           <!-- second-section -->
           <!-- <h1 id="nameT2" class="text-center" style="font-weight:980">
-            Rishika Vishnoi
+            Jimmy
         </h1>
        -->
           <!-- objective  -->
           <div class="card mt-4">
-            <div class="card-header background">
+            <div class="card-header  pale-green">
               <h3>Objective</h3>
             </div>
             <div class="card-body">
@@ -236,7 +258,7 @@
 
           <!-- skill set -->
           <div class="card mt-4">
-            <div class="card-header background">
+            <div class="card-header  pale-green">
               <h3>Skills</h3>
             </div>
             <div class="card-body">
@@ -247,7 +269,7 @@
           <!-- work experience -->
 
           <div class="card mt-4">
-            <div class="card-header background">
+            <div class="card-header  pale-green">
               <h3>Work Experience</h3>
             </div>
             <div class="card-body">
@@ -262,7 +284,7 @@
           <!-- Education -->
 
           <div class="card mt-4">
-            <div class="card-header background">
+            <div class="card-header  pale-green">
               <h3>Eduacation</h3>
             </div>
             <div class="card-body">
@@ -275,8 +297,8 @@
           </div>
 
           <div class="container text-center mt-4">
-            <button onclick="printResume()" class="btn  btn-danger">
-              Print Resume
+            <button onclick="printResume()" class="btn dark-blue white-text">
+              Save PDF
             </button>
           </div>
         </div>

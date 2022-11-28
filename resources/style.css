@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#login{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: white;
+    /* position: fixed; */
+    z-index: 500;
+    height: 100vh;
+}
+.disable{
+    display: none;
+}
+#login{
+    background-color: #161b22;
+}
+#login{
+    width: 100vw;
+    height: 100%;
+}
+#login-container{
+    width: 50rem;
+    margin: 20px auto;
+    /* background-color: red; */
+}
+#login h1, h2, h3{
+    text-align: center;
+    font-weight: 500;
+}
+#login h1{
+    font-size: large;
+    color: #78f0c8;
+}
+#login h3{
+    font-size: medium;
+}
+#login label{
+    color: #b3b3b3;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+#login input{
+    /* background-color: #8ca7dc; */
+    /* background-color: #b3b3b3; */
+    border: none;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+#login input:focus{
+    outline: none ;
+}
+#login form{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#login input[type=submit]{
+    margin-top: .5rem;
+    background-color: #8ca7dc;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+#cv-form {
+    /* background-color: rgb(251, 255, 229); */
+    background-color: #8ca7dc;
+    /* display: none; */
+}
+.header{
+    background-color: #161b22;
+}
+/* Colors */
+.pale-green{
+    background-color: #78f0c8 !important;
+}
+.pale-green-text{
+    color: #78f0c8 !important;
+}
+.light-blue {
+    background-color: #8ca7dc !important;
+}
+.dark-blue{
+    background-color: #161b22 !important;
+}
+.white-text{
+    color: white !important;
+}
+/* #cv-template {
+    display: none;
+} */
+
+.myimg {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.background {
+    background-color: rgb(248, 253, 207);
+}
+
+.left-template {
+    background-color: rgb(108, 141, 249);
+    color: white;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 .nameT {
+    text-transform: capitalize;
+}
+
+.card-header {
+    color: rgb(61, 61, 61);
+    padding: 6px !important;
+
+}
